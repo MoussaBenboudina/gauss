@@ -1,0 +1,112 @@
+
+
+body {
+    background-color: rgb(206, 221, 236);
+    
+}
+
+
+.nombreLinge{
+margin-top: 250px;
+}
+
+.btn1{
+    margin: -20px auto 50px;
+}
+
+.section2{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+h3{
+    display: inline-block;
+   margin-top: -20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+input{
+    width: 64px;
+    height: 26px;
+    font-size: 22px;
+}
+
+.lesValurs{
+    margin-top: 50px;
+}
+
+.sec1{
+    background-color:#2f4f4f;
+    color: #fff;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    color:#FFF;
+}
+
+button{
+width: 120px;
+height: 40px;
+color: #fff;
+font-weight: 800px;
+font-size: 18PX;
+font-family: inherit;
+background-color: black;
+margin-top: 20px;
+margin-left: 60px;
+border-radius: 5px;
+box-shadow: 0 0 2px blue;
+display: block;
+border: none;
+-webkit-transition-duration: .3s;
+transition-duration: .3s;
+-webkit-transition-property: box-shadow,transform;
+transition-property:  box-shadow,transform;
+margin: auto;
+
+}
+button:hover , button:focus ,button:active{
+
+    box-shadow: 0 0 5px #0a7aea;
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+    background-color: black;
+    font-size: 20px;
+
+}
+
+.val{
+    width: 50px;
+}
+.sec1 h1{
+    font-family: serif;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+
+
+    
+}
+.desc .text1{
+text-align: center;
+margin:5%;
+
+}
+    .hr{
+        width: 100%;
+        height: 1.5px;
+        background-color: black;
+        margin-bottom:80px ;
+    }
+    .btn0{
+        width: 260px;
+        height: 50px;
+        
+    }
+    #nombreLinge{
+       margin: 20px auto;
+    }
