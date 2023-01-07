@@ -515,7 +515,7 @@ function saidle(){
      
        document.write(`
       
-       <h2>X${i+1}<sup>(${k+1})</sup>=${(x0[i]).toFixed(2)}</h2>
+       <h3>X${i+1}<sup>(${k+1})</sup>=${(x0[i]).toFixed(2)}</h3>
        `)}
        document.write(`
       <br>
