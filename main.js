@@ -462,6 +462,11 @@ function saidle(){
        align-items:center;
        margin-top:230px;
     }
+    @media(max-width:768px){
+      .saidleSoul > div{
+         display:grid;
+      }
+    }
      </style>
      `)
     
