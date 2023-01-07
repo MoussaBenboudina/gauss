@@ -440,6 +440,35 @@ function saidle(){
      console.log(a);
     console.log(b);
     
+     
+     let s=[];
+     let s1;
+     
+     for(var k1=0;k1<n;k1++){
+        for(var k=0;k<n;k++){
+           for(i=0;i<n;i++){
+              for(var i1=0;i1<n;i1++){
+               s[i]=0;
+              }
+              for( j=0;j<n;j++){
+                 if(j !== i){
+                    s[i]+=Math.abs(a[i][j]);
+                 }}}
+     
+                 for(i=k;i<n-1;i++){
+                    if(Math.abs(a[i][i]) >= Math.abs(s[i])){
+                       continue;
+                    }else{
+                       for( j=0;j<n;j++){
+                            
+                          s1=a[i][j];
+                          a[i][j]=a[i+1][j];
+                          a[i+1][j]=s1;}
+                          s1=b[i];
+                          b[i]=b[i+1];
+                          b[i+1]=s1;
+                    }}}}
+     
     
     document.write(`
     
@@ -471,39 +500,6 @@ function saidle(){
      `)
     
     
-    let s=[];
-    let s1;
-    
-    for(var k1=0;k1<n;k1++){
-       for(var k=0;k<n;k++){
-          for(i=0;i<n;i++){
-             for(var i1=0;i1<n;i1++){
-              s[i]=0;
-             }
-             for( j=0;j<n;j++){
-                if(j !== i){
-                   s[i]+=(Math.abs(a[i][j]));
-                }}}
-    
-                for(i=k;i<n;i++){
-                   if (a[i][i] >= s[i]){
-                      continue;
-                   }else
-                   {
-                      
-                      for( j=0;j<n;j++){
-                         
-                         s1=a[i][j];
-                         a[i][j]=a[i+1][j];
-                         a[i+1][j]=s1;
-                      }
-                         s1=b[i];
-                         b[i]=b[i+1];
-                         b[i+1]=s1;
-                   }}}}
-    
-    console.log(a);
-    console.log(b);
     
     let a1;
     document.write(`<div class="saidleSoul">
